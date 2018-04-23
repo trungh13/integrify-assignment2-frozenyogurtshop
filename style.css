@@ -1,0 +1,109 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-size:18px;
+    font-family: 'Roboto ', sans-serif;
+}
+.container{
+width: 992px;
+margin-left:auto;
+margin-right:auto;
+}
+/*NAVIGATION*/
+.navigation{
+    background-color:#EEECED;
+    padding: 30px 40px 30px 40px;
+    height:60px;
+}
+.navigation img{
+    float: left;
+}
+nav a{
+    float:right;
+    text-decoration: none;
+    padding:20px 30px 20px 30px;
+    color:#7a7271;
+    font-size:13px;
+}
+nav a:hover{
+    color:#C93663;
+}
+/*featured-photo*/
+.featured-photo{
+    background-image:url("./assets/bg-home.jpg");
+    background-repeat:no-repeat;
+    height:660px;
+    position: relative;
+}
+.featured-photo img{
+    bottom:80px;
+    right:70px;
+    position:absolute;
+}
+.featured-photo-text{
+    position: absolute;
+    bottom: 135px;
+    right: 100px;
+    color: white;
+    text-align:center;
+}
+/*tbody*/
+.section-newproduct{
+    padding:40px 30px 40px 30px;
+    background-color:#E9E7E8;
+    height:180px;
+    background-image:url("./assets/yogurt.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color:#7a7271;
+}
+.section-newproduct p{
+    font-size:15px;
+}
+.section-newproduct h1{
+    font-size:30px;
+    padding:15px 0px;
+    color:#C93663;
+}
+.section-information{
+    background-color:#C8C02C; 
+    height:160px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.icon img{
+    height:40px;
+    margin-bottom:10px;
+}
+.icon{
+    float: left;
+    margin:40px 67px 40px 67px;
+    text-align:center;
+    color:white;
+}
+.icon i{
+    padding-top:2px;
+    margin-bottom:16px;
+}
+
+/* footer */
+.footer{
+    background-color:#C93663;
+    color:white;
+    text-align:center;
+    padding:100px 0px;
+}
+.footer p{
+    font-size:15px;
+}
+.footer-logos{
+    padding-bottom:20px;
+}
+.footer-logos img{
+    padding:0px 10px;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
